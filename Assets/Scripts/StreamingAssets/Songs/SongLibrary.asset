@@ -13,48 +13,71 @@ MonoBehaviour:
   m_Name: SongLibrary
   m_EditorClassIdentifier: Assembly-CSharp::RhythmGame.SongLibrary
   songs:
-  - songId: 
-    displayTitle: 
-    composerName: 
+  - songId: Ode_To_Joy
+    displayTitle: Ode To Joy
+    composerName: Ludwig Van Beethoven
     albumArt: {fileID: 0}
-    musicClip: {fileID: 0}
-    midiFileName: 
-    bpm: 0
-    latencyOffsetMs: 0
-    laneRootPitches: 
+    musicClip: {fileID: 8300000, guid: a87ecedc7a30171488306f1c03031496, type: 3}
+    midiFileName: beethoven-symphony9-4-ode-to-joy-piano-solo_midicities_dot_com.mid
+    bpm: 120
+    laneRootPitches:
+    - 64
+    - 66
+    - 67
+    - 69
+    - 71
     difficulty: 0
-    starThreshold1: 0
-    starThreshold2: 0
-    starThreshold3: 0
-    notesIntroduced: []
-    educationalTip: 
-  - songId: 
-    displayTitle: 
-    composerName: 
+    starThreshold1: 5
+    starThreshold2: 10
+    starThreshold3: 15
+    notesIntroduced:
+    - C
+    - D
+    - E
+    - B
+    - A
+    educationalTip: Quarter notes last a whole beat.
+  - songId: Twinkle_Twinkle
+    displayTitle: Twinkle Twinkle Little Star
+    composerName: Wolfgang Amadeus Mozart
     albumArt: {fileID: 0}
-    musicClip: {fileID: 0}
-    midiFileName: 
-    bpm: 0
-    latencyOffsetMs: 0
-    laneRootPitches: 
+    musicClip: {fileID: 8300000, guid: 988a72059219918408916a5f45f361d3, type: 3}
+    midiFileName: twinkle-twinkle-little-star_midicities_dot_com.mid
+    bpm: 100
+    laneRootPitches:
+    - 60
+    - 62
+    - 64
+    - 67
+    - 69
     difficulty: 1
-    starThreshold1: 0
-    starThreshold2: 0
-    starThreshold3: 0
-    notesIntroduced: []
-    educationalTip: 
-  - songId: 
-    displayTitle: 
-    composerName: 
+    starThreshold1: 10
+    starThreshold2: 15
+    starThreshold3: 20
+    notesIntroduced:
+    - C
+    - G
+    - A
+    - F
+    - D
+    educationalTip: Half notes last two beats.
+  - songId: Turkish_March
+    displayTitle: Rondo Alla Turca
+    composerName: Wolfgang Amadeus Mozart
     albumArt: {fileID: 0}
-    musicClip: {fileID: 0}
-    midiFileName: 
-    bpm: 0
-    latencyOffsetMs: 0
-    laneRootPitches: 
+    musicClip: {fileID: 8300000, guid: 46714ad14f9bece4283d77a4ea694d66, type: 3}
+    midiFileName: alla-turca_midicities_dot_com.mid
+    bpm: 120
+    laneRootPitches:
+    - 57
+    - 60
+    - 62
+    - 65
+    - 69
     difficulty: 2
-    starThreshold1: 0
-    starThreshold2: 0
-    starThreshold3: 0
-    notesIntroduced: []
+    starThreshold1: 15
+    starThreshold2: 20
+    starThreshold3: 25
+    notesIntroduced:
+    - E
     educationalTip: 
